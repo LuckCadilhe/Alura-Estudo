@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var primeiraChegada = 1500
+    var anoAtual = 2022
+    var resultadoAno = anoAtual - primeiraChegada;
+    var media = resultadoAno / 28;
+
+    mostra("Total de anos que se passaram foi de " + Math.round(media));
+
+
+</script>
